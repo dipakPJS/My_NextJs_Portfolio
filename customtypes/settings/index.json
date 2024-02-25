@@ -1,0 +1,27 @@
+{
+  "format": "custom",
+  "id": "settings",
+  "label": "Settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Name",
+          "placeholder": ""
+        }
+      },
+      "nav_item": {
+        "type": "Select",
+        "config": {
+          "label": "Nav Item",
+          "placeholder": "",
+          "options": ["Blog", "Projects"],
+          "default_value": "Blog"
+        }
+      }
+    }
+  }
+}
